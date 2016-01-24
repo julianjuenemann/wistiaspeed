@@ -12,7 +12,7 @@ I love YouTube's speed feature. Wistia should have the same.
 
 ## Installation
 
-1. Drag the <a href="http://google.com">WistiaSpeedUp</a> Bookmarklet into your bookmark bar
+1. Drag the [WistiaSpeedUp](javascript:(function(\)%7Bvar speed %3D Wistia.api("wistia"\).playbackRate(\)%3Bif(speed %3D%3D%3D 3\)%7Bspeed %3D 1%3B%7Delse%7Bspeed %3D speed %2B 0.5%3B%7DWistia.api("wistia"\).playbackRate(speed\)%7D\)(\)) Bookmarklet into your bookmark bar
 2. Find an embedded video
 3. make sure it is playing the HTML5 Version of the video (right click on the video)
 4. Click on the Bookmarklet to speed up your video by a factor of 0.5 x the speed.
